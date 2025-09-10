@@ -129,7 +129,7 @@ header h2 {
     margin-bottom: 1em;
     padding: 0.5em;
     font-size: 1em;
-    #color: #000;
+    color: #000;
   }
   #output {
     flex: 1;
@@ -164,7 +164,6 @@ header h2 {
       margin-bottom: 1em;
       padding: 0.5em;
       font-size: 1em;
-      color: white;
     }
     #output {
       flex: 1;
@@ -208,11 +207,11 @@ header h2 {
 -->
   <div class="container">
     <form name="uipath-demo" method="POST" data-netlify="true" onsubmit="handleSubmit(event)">
-      <label for="field1">Field 1:</label><input type="text" id="field1" name="field1" placeholder="Text Field 1" />
-      <label for="field2">Field 2:</label><input type="text" id="field2" name="field2" placeholder="Text Field 2" />
-      <label for="field3">Field 3:</label><input type="text" id="field3" name="field3" placeholder="Text Field 3" />
-      <label for="field4">Field 4:</label><input type="text" id="field4" name="field4" placeholder="Text Field 4" />
-      <label for="field5">Field 5:</label><input type="text" id="field5" name="field5" placeholder="Text Field 5" />
+      <label for="field1">Field 1:</label><input type="text" id="field1" name="field1" placeholder="Text Field 1" required />
+      <label for="field2">Field 2:</label><input type="text" id="field2" name="field2" placeholder="Text Field 2" required />
+      <label for="field3">Field 3:</label><input type="text" id="field3" name="field3" placeholder="Text Field 3" required />
+      <label for="field4">Field 4:</label><input type="text" id="field4" name="field4" placeholder="Text Field 4" required />
+      <label for="field5">Field 5:</label><input type="text" id="field5" name="field5" placeholder="Text Field 5" required />
       <button type="submit" style="color:white;">Send</button>
     </form>
 
